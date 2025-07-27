@@ -1,4 +1,5 @@
 💬 Loan Approval Chatbot
+
 This is an interactive chatbot that answers questions about real-world loan application data. It's designed to help users understand what kind of applicants get loans approved — using a combination of retrieval-augmented generation (RAG), FAISS, and Gemini AI.
 
 🚀 Features
