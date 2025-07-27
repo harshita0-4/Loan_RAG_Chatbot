@@ -55,7 +55,7 @@ class VectorStore:
         self.embeddings = embeddings
         return index
 
-    def search(self, query, k=5):
+    def search(self, query, k=10):
         q_embed = self.model.encode([query])
         _, indices = self.index.search(np.array(q_embed), k)
         return [self.sentences[i] for i in indices[0]]
