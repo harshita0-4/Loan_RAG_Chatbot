@@ -22,6 +22,9 @@ Streamlit frontend for an easy and interactive UI
 3. Uses vector search (FAISS) to find the most relevant data for a user’s question.
 4. Sends the relevant info to Gemini AI to generate a smart, human-like answer.
 
+<img width="1879" height="840" alt="image" src="https://github.com/user-attachments/assets/06d55535-13ff-4b93-8939-a3d447920a54" />
+
+✅ Live App: Try the chatbot here → https://loanragchatbot-assignment08.streamlit.app/
 
 📦 loan--RAG-chatbot/
 ├── app.py              # Streamlit UI
